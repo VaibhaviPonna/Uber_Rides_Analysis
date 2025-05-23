@@ -32,18 +32,19 @@ Follow these instructions to get the project up and running locally:
 
 1. Clone the repository:
    ```bash
-   <ins>git clone https://github.com/VaibhaviPonna/Uber_Rides_Analysis.git</ins>
-   <ins>cd uber_rides_analysis</ins>
+   git clone https://github.com/VaibhaviPonna/Uber_Rides_Analysis.git
+   cd uber_rides_analysis
+   
 2. Create a virtual environment (optional but recommended):
-   <ins>python -m venv env</ins>
-   source env/bin/activate  # On Windows use <ins>env\Scripts\activate</ins>
+   <ins>python -m venv env</ins>  
+   <ins>source env/bin/activate</ins>  # On Windows use <ins>env\Scripts\activate</ins>
 
 3. Install the required libraries:
-   <ins>pip install -r requirements.txt</ins>
-If requirements.txt is not provided, manually install:
+   <ins>pip install -r requirements.txt</ins>  
+If requirements.txt is not provided, manually install:  
    <ins>pip install pandas matplotlib seaborn jupyter</ins>
    
-4. Launch the Jupyter Notebook:
+4. Launch the Jupyter Notebook: 
    <ins>jupyter notebook</ins>
 
 5. Open uber_rides_analysis.ipynb in your browser and run the cells.
